@@ -25,14 +25,14 @@ b) From the service provider perspective, we build our solution on the backend t
 
 So far our efforts were focused on the following activities:
 
-(a) infrastructure deployment and use case design at a presentation layer
-(b) refining the business case for presentation purposes. 
+(a) infrastructure deployment and use case design at a presentation layer<br>
+(b) refining the business case for presentation purposes. <br>
 
 It resulted with a mix of technical and business activities executed by all team members and a number of deliverables:
 
-(a) technical script for our scenario leveraging BCAssetManagement framework and Hyperledger Fabric platform.
-(b) deployment instructions and user stories to recreate our presentation scenario.
-(c) demo environment for the use by the general public.
+(a) technical script for our scenario leveraging BCAssetManagement framework and Hyperledger Fabric platform.<br>
+(b) deployment instructions and user stories to recreate our presentation scenario.<br>
+(c) demo environment for the use by the general public.<br>
 
 # The impact of our solution on the crisis
 
