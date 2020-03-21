@@ -5,7 +5,7 @@ SCI-CHAIN: The blockchain platform for sharing lab research and medical data to 
 
 # What does our product solve
 
-In the context of COVID-19 pandemics, the time to delivery of essential data to apply countermeasures and design a vaccine is of outmost importance. However, at current pace of the spread of pandemics across the world, a reliable research and medical data is broadcasted too slow to peer reviewers whose feedback is crucial to turn the research into material product approved by the Regulator, manufactured in a factory and delivered to the general public. This is predominantly due to three reasons:
+In the context of `COVID-19` pandemics, the time to delivery of essential data to apply countermeasures and design a vaccine is of outmost importance. However, at current pace of the spread of pandemics across the world, a reliable research and medical data is broadcasted too slow to peer reviewers whose feedback is crucial to turn the research into material product approved by the Regulator, manufactured in a factory and delivered to the general public. This is predominantly due to three reasons:
 
 a) The slowness in publishing research work is caused by repetitive and redundant administrative tasks unrelated to the research effort, such as a need to secure copyright over the content, providing a uniquevocal intellectual property recognition back to the author or her/his employer, using qualified digital signatures to validate the identities of authors and publishers, and selecting information hubs of high reputation from data availability and security perspective. 
 
