@@ -21,6 +21,8 @@ a) From the user perspective, our application is leveraging *BCAssetManagement*,
 
 b) From the service provider perspective, we build our solution on the backend that is based on *Hyperledger Fabric*, an open-source permissioned blockchain platform developed by Hyperledger and licensed under Apache 2.0. This choice is allowing service providers to deploy an application to avoid relying on central gateways that are prone to failure or delayed actions. Blockchain built in form of a distributed ledger network will address the need for data immutability, timestamp and tracking capabilities.
 
+# Current state of work
+
 So far our efforts were focused on the following activities:
 
 (a) infrastructure deployment and use case design at a presentation layer
@@ -34,4 +36,8 @@ It resulted with a mix of technical and business activities executed by all team
 
 # The impact of our solution on the crisis
 
-We believe that our showcase can be quickly transformed into a deployed network of nodes can act as trustless gateways for document and research content submissions which can then be subsequently cross-verified for timestamp, document integrity and supplied identity across the entire network. This will radically shorten the amount of time needed to (a) verify the origin of the document and thus, IPR ownership (b) access a tamper-proof copy of a document from anywhere in the world (c) track all activities related to a uniquelly identifiable research material across its lifecycle.
+We believe that our showcase can be quickly transformed into a deployed network of nodes can act as trustless gateways for document and research content submissions which can then be subsequently cross-verified for timestamp, document integrity and supplied identity across the entire network. This will radically shorten the amount of time needed to :
+
+(a) verify the origin of the document and thus, IPR ownership 
+(b) access a tamper-proof copy of a document from anywhere in the world 
+(c) track all activities related to a uniquely identifiable research material across its lifecycle.
