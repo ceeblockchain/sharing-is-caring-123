@@ -13,6 +13,8 @@ b) Traditionally, authentication, timestamping and reputation are provided by ce
 
 c) Proliferation of copies of the same data generates redundant activities across small community pockets unrelated or unaware of each other. Subsequent research linked to a particular copy would gather a limited recognition and cause a duplication of work based on the same piece of data. As a result, these issues are burning scarce time and resources.
 
+![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/today.png "Situation today")
+
 # Our solution
 
 Our platform is a showcase of functionalities that allow for a submission of research data and tracking of subsequent activities related to its lifecycle (peer reviews, approals for manufacturing and other activities). It does so while making sure the integrity of data and unique identification of changes is maintained. We intend to address this platform to two parties holding distinct roles:
@@ -20,6 +22,8 @@ Our platform is a showcase of functionalities that allow for a submission of res
 a) From the user perspective, our application is leveraging *BCAssetManagement*, an integrated IBM-owned framework for acceleration of application development for demonstration purposes. Our application built on the basis of that framework will allow every submission and subsequent interaction of a research or medical data is supplied with a (i) digital timestamp of the data regardless of its binary and presentation form supplied with (ii) cryptographic proof of document content, (iii) a unique identifier of a content submitter and (iv) capability to register subsequent activities that can be tracked to a uniquely identifiable piece of research.
 
 b) From the service provider perspective, we build our solution on the backend that is based on *Hyperledger Fabric*, an open-source permissioned blockchain platform developed by Hyperledger and licensed under Apache 2.0. This choice is allowing service providers to deploy an application to avoid relying on central gateways that are prone to failure or delayed actions. Blockchain built in form of a distributed ledger network will address the need for data immutability, timestamp and tracking capabilities.
+
+![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/solution.png "Our solution")
 
 # Current state of work
 
@@ -41,3 +45,5 @@ We believe that our showcase can be quickly transformed into a deployed network 
 (a) verify the origin of the document and thus, IPR ownership <br>
 (b) access a tamper-proof copy of a document from anywhere in the world <br>
 (c) track all activities related to a uniquely identifiable research material across its lifecycle.<br>
+
+![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/proposal.png "Our solution")
