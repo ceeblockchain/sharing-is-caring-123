@@ -48,6 +48,8 @@ It resulted with a mix of technical and business activities executed by all team
 
 ![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/solution.png "Our solution")
 
+We are planning to broadcast the information about this solution to the wider public, including both central government institutions responsible for public healthcare facilities, the commercial sector responsible for manufacturing of vaccines and research community in general.
+
 # The impact of our solution on the crisis
 
 We believe that our showcase can be quickly transformed into a deployed network of nodes can act as trustless gateways for document and research content submissions which can then be subsequently cross-verified for timestamp, document integrity and supplied identity across the entire network. This will radically shorten the amount of time needed to :
