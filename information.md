@@ -15,17 +15,23 @@ c) Proliferation of copies of the same data generates redundant activities acros
 
 # Our solution
 
-Our platform is a showcase of functionalities that allow for a submission of research data and tracking of subsequent activities related to its lifecycle (peer reviews, approals for manufacturing and other activities). We intend to address this platform to two parties holding distinct roles:
+Our platform is a showcase of functionalities that allow for a submission of research data and tracking of subsequent activities related to its lifecycle (peer reviews, approals for manufacturing and other activities). It does so while making sure the integrity of data and unique identification of changes is maintained. We intend to address this platform to two parties holding distinct roles:
 
 a) From the user perspective, our application is leveraging *BCAssetManagement*, an integrated IBM-owned framework for acceleration of application development for demonstration purposes. Our application built on the basis of that framework will allow every submission and subsequent interaction of a research or medical data is supplied with a (i) digital timestamp of the data regardless of its binary and presentation form supplied with (ii) cryptographic proof of document content, (iii) a unique identifier of a content submitter and (iv) capability to register subsequent activities that can be tracked to a uniquely identifiable piece of research.
 
 b) From the service provider perspective, we build our solution on the backend that is based on *Hyperledger Fabric*, an open-source permissioned blockchain platform developed by Hyperledger and licensed under Apache 2.0. This choice is allowing service providers to deploy an application to avoid relying on central gateways that are prone to failure or delayed actions. Blockchain built in form of a distributed ledger network will address the need for data immutability, timestamp and tracking capabilities.
 
-# What you have done during the weekend
+So far our efforts were focused on the following activities:
 
-Our efforts are based on both (a) infrastructure deployment and use case design at a presentation layer and (b) refining the business case for presentation purposes. It is a mix of technical and business activities executed by all team members. 
-We will provide (a) technical components, (b) deployment instructions and (c) user stories to allow for deployment and use of utility networks with built-in functionalities for purposes described above. We will also provide a demo environment for the use by the general public to receive necessary feedback.
+(a) infrastructure deployment and use case design at a presentation layer
+(b) refining the business case for presentation purposes. 
 
-# The solution’s impact on the crisis / Scale of impact
+It resulted with a mix of technical and business activities executed by all team members and a number of deliverables:
 
-As a result, a quickly deployed network of nodes can act as trustless gateways for document and research content submissions that can be cross-verified for timestamp, document integrity and supplied identity across the entire network. This will radically shorten the amount of time needed to (a) verify the origin of the document and thus, IPR ownership (b) access a tamper-proof copy of a document from anywhere in the world (c) track all activities related to a uniquelly identifiable research material across its lifecycle.
+(a) technical script for our scenario leveraging BCAssetManagement framework and Hyperledger Fabric platform.
+(b) deployment instructions and user stories to recreate our presentation scenario.
+(c) demo environment for the use by the general public.
+
+# The impact of our solution on the crisis
+
+We believe that our showcase can be quickly transformed into a deployed network of nodes can act as trustless gateways for document and research content submissions which can then be subsequently cross-verified for timestamp, document integrity and supplied identity across the entire network. This will radically shorten the amount of time needed to (a) verify the origin of the document and thus, IPR ownership (b) access a tamper-proof copy of a document from anywhere in the world (c) track all activities related to a uniquelly identifiable research material across its lifecycle.
