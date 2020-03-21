@@ -1,7 +1,7 @@
 
 # One-sentence description
 
-The platform for sharing lab research and medical data to accelerate work on vaccine and improve knowledge on COVID-19.
+SCI-CHAIN: The blockchain platform for sharing lab research and medical data to accelerate work on vaccine and improve knowledge on COVID-19
 
 # What does our product solve
 
