@@ -48,7 +48,7 @@ It resulted with a mix of technical and business activities executed by all team
 
 ![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/solution.png "Our solution")
 
-We are planning to broadcast the information about this solution to the wider public, including both central government institutions responsible for public healthcare facilities, the commercial sector responsible for manufacturing of vaccines and research community in general.
+We are planning to broadcast the information about this solution to the wider public, including both central government institutions responsible for public healthcare facilities, the commercial sector responsible for manufacturing of vaccines and research community in general. Depending on their role, we want to onboard them either as network participants acting as trustless gateways to the service or network service consumers, using the functionality built on top.
 
 # The impact of our solution on the crisis
 
