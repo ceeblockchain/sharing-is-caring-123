@@ -10,8 +10,8 @@
 
 ## Overview
 
-- Detailed description of our solution: 
-- Overview of a built solution
+- [Detailed description of our solution](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/information.md) 
+- Technical overview of a solution
 - Demo instructions
 - [Live demo environment](http://37.58.107.85:3000/asset/research)
-- Idea pitch (2 min)
+- Idea pitch on youtube (2 min)
