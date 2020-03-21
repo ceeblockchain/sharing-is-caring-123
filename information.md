@@ -38,6 +38,6 @@ It resulted with a mix of technical and business activities executed by all team
 
 We believe that our showcase can be quickly transformed into a deployed network of nodes can act as trustless gateways for document and research content submissions which can then be subsequently cross-verified for timestamp, document integrity and supplied identity across the entire network. This will radically shorten the amount of time needed to :
 
-(a) verify the origin of the document and thus, IPR ownership 
-(b) access a tamper-proof copy of a document from anywhere in the world 
-(c) track all activities related to a uniquely identifiable research material across its lifecycle.
+(a) verify the origin of the document and thus, IPR ownership <br>
+(b) access a tamper-proof copy of a document from anywhere in the world <br>
+(c) track all activities related to a uniquely identifiable research material across its lifecycle.<br>
