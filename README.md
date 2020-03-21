@@ -13,4 +13,4 @@
 - [Detailed description of our solution](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/information.md) 
 - [Demo instructions](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/instructions.md) 
 - [Live demo environment](https://bit.ly/3bmtp0B)
-- Idea pitch on youtube (2 min)
+- [Idea pitch on youtube] (2 min)(https://www.youtube.com/watch?v=9xe11jhPKD4)
