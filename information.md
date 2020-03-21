@@ -59,3 +59,5 @@ We believe that our showcase can be quickly transformed into a deployed network 
 (c) track all activities related to a uniquely identifiable research material across its lifecycle.<br>
 
 ![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/proposal.png "Our solution")
+
+To make the above happen we need to be able to pitch the idea to business decision makers participating in a supply chain of information needed from preliminary research results to manufacturing of an approved vaccine. These include, among others, key public healthcare institutions, research facilities, lab testing organizations, universities and pharmaceutical companies.
