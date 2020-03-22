@@ -4,6 +4,8 @@ In this simplified demo we simulated three actors who are participating in the s
 
 ## Pre-requisites
 
+Before starting the demo, it is important to acquire some essential knowledge about technical components used in our solution. This will provide a better understanding in terms of timestamp, tracking of a uniquely identifiable asset and cryptographic proof of existence of supplied documents.
+
 ### What is blockchain
 
 In general terms, a blockchain is an immutable transaction ledger, maintained within a distributed network of peer nodes. These nodes each maintain a copy of the ledger by applying transactions that have been validated by a consensus protocol, grouped into blocks that include a hash that bind each block to the preceding block.
@@ -23,6 +25,21 @@ We chose Hyperledger Fabric as it satisfies the following functionalities that w
 - High transaction throughput performance
 - Low latency of transaction confirmation
 - Privacy and confidentiality of transactions and data pertaining to business transactions
+
+## Our solution
+
+Our platform is a showcase of functionalities that allow for a submission of research data and tracking of subsequent activities related to its lifecycle (peer reviews, approals for manufacturing and other activities). It does so while making sure the integrity of data and unique identification of changes is maintained.
+
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/solution.png">
+
+When a new research data in registered by research author, the blockchain layer built on Hyperledger Fabric essentially saves the metadata and a cryptographic hash (sha256) of a document. BCAssetManagement framework governs the communication with Hyperledger Fabric peer node and a chaincode (smart contract). Every time when a new user (Peer Reviewer, FDA etc.) is referring back to an already registered data, BCAssetManagement framework connects to Hyperledger Fabric peer node ledger state (CouchDB) and extracts the information about the current state before allowing that user to append the state of a research data. At any time, any person who has a copy of the document can verify its existence and integrity through the search mechanism. In background, the document's hash is checked against the ledger state.
+
+Data saved on the ledger are as follows:
+
+(i) digital timestamp of the data which is a result of Hyperledger Fabric consensus process. To read more about decentralized consensus please click here: https://hyperledger-fabric.readthedocs.io/en/release-2.0/orderer/ordering_service.html
+(ii) cryptographic proof of document content using cryptographic hash (sha256). To read more about how the hash function is working, please click here: https://www.movable-type.co.uk/scripts/sha256.html
+(iii) a unique identifier of a content submitter which is governed under the hood by Hyperledger Fabric. To read more about how Hyperledger Fabric manages identities in a permissioned ledger network please click here: https://hyperledger-fabric-ca.readthedocs.io/en/latest/index.html
+(iv) research metadata attached to a particular document which is a key/value store. In the context of blockchain, every entry can be queried against its history of changes and tracked to a uniquely identifiable piece of research.
 
 ## Perspective of a research author
 
