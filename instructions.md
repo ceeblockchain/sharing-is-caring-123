@@ -1,6 +1,6 @@
 # Technical deep-dive and demo walkthrough
 
-In this simplified demo we simulated three actors who are participating in the supply chain of research information used to counter COVID-19 pandemics. The objective of it is to showcase the case towards setting up a decentralized platform to submit, track and query research data.
+In this document we provide a detailed overview of our solution and a rationale for implementation decisions. We also introduce the audience to the concept of blockchain that stays at the core of our solution and resolves many of the problems defined in earlier. We also give an access to the demo environment where we give a walkthrough of a potential journey of an original research data if our platform would be implemented across a critical mass of participants. For this purpose we simulate three actors who are participating in the supply chain of research information used to counter COVID-19 pandemics. The objective of the demo is also to showcase functionalities related to the submission, tracking and querying research data.
 
 ## Technical overview of our solution
 
