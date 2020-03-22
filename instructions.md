@@ -83,12 +83,25 @@ From the perspective of research author, our application showcases the process o
 
 From the perspective of peer reviewer, our application showcases the process of commenting a research or medical data that is supplied from a uniquely identifiable research author. Any subsequent modificaiton of an existing entry is supplied with a (i) digital timestamp of the data regardless of its binary and presentation form supplied with (ii) cryptographic proof of document content, (iii) a unique identifier of a content submitter. Moreover, this element of the process shows the capability to (iv) register subsequent activities that can be tracked to a uniquely identifiable piece of research.
 
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/7.peer-reviewer.png)
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/8.select-research-peer.png)
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/9.modify.png)
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/10.modify-2.png)
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/11.submit-2.png)
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/12.back-2.png)
+7. We start by clicking on the *Peer Reviewer* role.
+
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/7.peer-reviewer.png" width="480" />
+
+8. We then select the newly published work.
+
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/8.select-research-peer.png" width="480" />
+
+9. As a Peer Reviewer, we want to add our feedback from the lecture of the research data. To do that we click on *Modify* button.
+
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/9.modify.png" width="480" />
+
+10. We then add a comment to the original work and click *Modify*.
+
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/10.modify-2.png" width="480" />
+
+11. Similarly to previous actions, the peer review generates a new event that is saved on the ledger with a new timestamp record which can be traced back to the same uniquely identifiable work initially published by Research Author.
+
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/11.submit-2.png" width="480" />
 
 ## Perspective of a Regulator
 
