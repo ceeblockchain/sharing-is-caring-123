@@ -8,7 +8,7 @@
 - [Adam Skowronski - Developer](https://www.linkedin.com/in/adam-skowronski-404a53b9/)
 - Damian Kacperski - Developer
 
-## Overview
+## Content
 
 - [Brief overview of our solution](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/information.md) 
 - [Solution deep dive and demo instructions](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/instructions.md) 
