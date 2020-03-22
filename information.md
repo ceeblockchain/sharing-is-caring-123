@@ -19,7 +19,7 @@ Traditionally, authentication, timestamping and reputation are provided by centr
 
 Proliferation of copies of the same data generates redundant activities across small community pockets unrelated or unaware of each other. Subsequent research linked to a particular copy would gather a limited recognition and cause a duplication of work based on the same piece of data. As a result, these issues are burning scarce time and resources.
 
-<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/today.png" "width="480" alt="Current supply chain of research information" class="center">
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/today.png">
 
 # Our solution
 
