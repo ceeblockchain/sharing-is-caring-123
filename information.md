@@ -46,9 +46,11 @@ It resulted with a mix of technical and business activities executed by all team
 (b) deployment instructions and user stories to recreate our presentation scenario.<br>
 (c) demo environment for the use by the general public.<br>
 
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/solution.png "Our solution")
+We are planning to extend the functionality of the application to analytics endpoint that would provide interfaces for in-depth analytics of data already placed on the distributed ledger and generate insights out of it. We also intend to build a layer of RESTful APIs to open the application content to a wider ecosystem of contributors with their own applications and services built on top of SCI-CHAIN.
 
 We are planning to broadcast the information about this solution to the wider public, including both central government institutions responsible for public healthcare facilities, the commercial sector responsible for manufacturing of vaccines and research community in general. Depending on their role, we want to onboard them either as network participants acting as trustless gateways to the service or network service consumers, using the functionality built on top.
+
+![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/solution.png "Our solution")
 
 # The impact of our solution on the crisis
 
