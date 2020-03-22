@@ -19,7 +19,7 @@ Traditionally, authentication, timestamping and reputation are provided by centr
 
 Proliferation of copies of the same data generates redundant activities across small community pockets unrelated or unaware of each other. Subsequent research linked to a particular copy would gather a limited recognition and cause a duplication of work based on the same piece of data. As a result, these issues are burning scarce time and resources.
 
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/today.png "Situation today")
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/today.png" "width="480" alt="Current supply chain of research information" class="center">
 
 # Our solution
 
@@ -50,7 +50,7 @@ We are planning to extend the functionality of the application to analytics endp
 
 We are planning to broadcast the information about this solution to the wider public, including both central government institutions responsible for public healthcare facilities, the commercial sector responsible for manufacturing of vaccines and research community in general. Depending on their role, we want to onboard them either as network participants acting as trustless gateways to the service or network service consumers, using the functionality built on top.
 
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/solution.png "Our solution")
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/solution.png" "width="48" alt="Our solution">
 
 # The impact of our solution on the COVID-19 crisis
 
@@ -60,6 +60,6 @@ We believe that our showcase can be quickly transformed into a deployed network 
 (b) access a tamper-proof copy of a document from anywhere in the world <br>
 (c) track all activities related to a uniquely identifiable research material across its lifecycle.<br>
 
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/proposal.png "Our solution")
-
 To make the above happen we need to be able to pitch the idea to business decision makers participating in a supply chain of information needed from preliminary research results to manufacturing of an approved vaccine. These include, among others, key public healthcare institutions, research facilities, lab testing organizations, universities and pharmaceutical companies.
+
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/proposal.png" alt="Result of an implementation of our work" class="center" "width="480">
