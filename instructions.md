@@ -1,4 +1,4 @@
-# Demo Walkthrough
+# Technical deep-dive and demo walkthrough
 
 In this simplified demo we simulated three actors who are participating in the supply chain of research information used to counter COVID-19 pandemics. The objective of it is to showcase the case towards setting up a decentralized platform to submit, track and query research data.
 
@@ -49,19 +49,35 @@ We chose Hyperledger Fabric as it satisfies the following functionalities that w
 - Low latency of transaction confirmation
 - Privacy and confidentiality of transactions and data pertaining to business transactions
 
-## Perspective of a research author
+## Demo Walkthrough
+
+### Perspective of a research author
 
 From the perspective of research author, our application showcases the process of submitting a research or medical data that is supplied with a (i) digital timestamp of the data regardless of its binary and presentation form supplied with (ii) cryptographic proof of document content, (iii) a unique identifier of a content submitter.
 
-<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/1.research-author.png  width="240" />
+1. We start by clicking on the *Research Author* role.
 
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/1.research-author.png" width="480" />
 
+2. We will now create a new research content by clicking *Create*.
 
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/2.create-content.png )
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/3.create-content-2.png)
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/4.select-research.png)
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/5.submit.png)
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/6.back.png)
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/2.create-content.png" width="480" />
+
+3. We fill out all the necessary information and attach a document representing our original piece of research through *Add publication* field. Then, we click *Create*.
+
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/3.create-content-2.png" width="480" />
+
+4. Once the publication is registered, it will show up on the list. Let's click on it to see the details.
+
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/4.select-research.png" width="480" />
+
+5. As we can see, a new block on the blockchain has been created and represents the submission of our original piece of research data. The creation of this block is a result of decentralized consensus and is supplemented with a timestamp of action. Its content reveal all essential data to verify the integrity of a document we just submitted and its metadata, including authorship which is essential for copyright and intellectual property purposes. At this stage, our work, its origin, moment of creation and authorship are secured but are not yet visible to the outside world. Let's click on *Submit* to officially publish the document to Peer Reviewers.
+
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/5.submit.png" width="480" />
+
+6. As we can see, every action, including submission generates a new event that is saved on the ledger with a new timestamp record. As we go further into this scenario we will see that all subsequent actions related to a particular piece of original research data can be traced back to the same uniquely identifiable work initially published by Research Author.
+
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/6.back.png" width="480" />
 
 ## Perspective of a peer reviewer
 
