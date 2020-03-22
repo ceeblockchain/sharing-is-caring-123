@@ -2,10 +2,10 @@
 
 ## Team Members and Roles
 
-- Anna Kaczmarczyk - Project Manager
-- Maciej Jedrzejczyk - Project Technical Lead
-- Patryk Walaszczyk - Business Analyst
-- Adam Skowronski - Developer
+- [Anna Kaczmarczyk - Project Manager](https://www.linkedin.com/in/anna-kaczmarczyk-79823351/)
+- [Maciej Jedrzejczyk - Project Technical Lead](https://www.linkedin.com/in/maciek-j%C4%99drzejczyk-9923461/)
+- [Patryk Walaszczyk - Business Analyst](https://www.linkedin.com/in/patryk-walaszczyk-058606116/)
+- [Adam Skowronski - Developer](https://www.linkedin.com/in/adam-skowronski-404a53b9/)
 - Damian Kacperski - Developer
 
 ## Overview
