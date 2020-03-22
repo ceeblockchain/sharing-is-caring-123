@@ -33,7 +33,7 @@ From the user perspective, our application is leveraging *BCAssetManagement*, an
 
 From the service provider perspective, we build our solution on the backend that is based on *Hyperledger Fabric*, an open-source permissioned blockchain platform developed by Hyperledger and licensed under Apache 2.0. This choice is allowing service providers to deploy an application to avoid relying on central gateways that are prone to failure or delayed actions. Blockchain built in form of a distributed ledger network will address the need for data immutability, timestamp and tracking capabilities.
 
-# Current state of work
+# Current state of work and next steps
 
 So far our efforts were focused on the following activities:
 
@@ -52,7 +52,7 @@ We are planning to broadcast the information about this solution to the wider pu
 
 ![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/solution.png "Our solution")
 
-# The impact of our solution on the crisis
+# The impact of our solution on the COVID-19 crisis
 
 We believe that our showcase can be quickly transformed into a deployed network of nodes can act as trustless gateways for document and research content submissions which can then be subsequently cross-verified for timestamp, document integrity and supplied identity across the entire network. This will radically shorten the amount of time needed to :
 
