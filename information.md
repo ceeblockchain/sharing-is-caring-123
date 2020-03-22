@@ -19,7 +19,7 @@ Traditionally, authentication, timestamping and reputation are provided by centr
 
 Proliferation of copies of the same data generates redundant activities across small community pockets unrelated or unaware of each other. Subsequent research linked to a particular copy would gather a limited recognition and cause a duplication of work based on the same piece of data. As a result, these issues are burning scarce time and resources.
 
-<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/today.png" "width="480">
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/today.png">
 
 # Our solution
 
@@ -50,7 +50,7 @@ We are planning to extend the functionality of the application to analytics endp
 
 We are planning to broadcast the information about this solution to the wider public, including both central government institutions responsible for public healthcare facilities, the commercial sector responsible for manufacturing of vaccines and research community in general. Depending on their role, we want to onboard them either as network participants acting as trustless gateways to the service or network service consumers, using the functionality built on top.
 
-<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/solution.png" "width="48" alt="Our solution">
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/solution.png">
 
 # The impact of our solution on the COVID-19 crisis
 
@@ -62,4 +62,4 @@ We believe that our showcase can be quickly transformed into a deployed network 
 
 To make the above happen we need to be able to pitch the idea to business decision makers participating in a supply chain of information needed from preliminary research results to manufacturing of an approved vaccine. These include, among others, key public healthcare institutions, research facilities, lab testing organizations, universities and pharmaceutical companies.
 
-<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/proposal.png" alt="Result of an implementation of our work" class="center" "width="480">
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/proposal.png">
