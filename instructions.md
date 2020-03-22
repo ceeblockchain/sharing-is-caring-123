@@ -51,6 +51,8 @@ We chose Hyperledger Fabric as it satisfies the following functionalities that w
 
 ## Demo Walkthrough
 
+In this demo we will simulate the typical journey of an original research document that travels from an author through a peer reviewer and ends up on the Regulator's table for a final approval or rejection. This is a simplification of a much complex process that our team is aware of but should serve well as a demonstration of capabilities provided by our solution.
+
 ### Perspective of a research author
 
 From the perspective of research author, our application showcases the process of submitting a research or medical data that is supplied with a (i) digital timestamp of the data regardless of its binary and presentation form supplied with (ii) cryptographic proof of document content, (iii) a unique identifier of a content submitter.
@@ -79,7 +81,7 @@ From the perspective of research author, our application showcases the process o
 
 <img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/6.back.png" width="480" />
 
-## Perspective of a peer reviewer
+### Perspective of a peer reviewer
 
 From the perspective of peer reviewer, our application showcases the process of commenting a research or medical data that is supplied from a uniquely identifiable research author. Any subsequent modificaiton of an existing entry is supplied with a (i) digital timestamp of the data regardless of its binary and presentation form supplied with (ii) cryptographic proof of document content, (iii) a unique identifier of a content submitter. Moreover, this element of the process shows the capability to (iv) register subsequent activities that can be tracked to a uniquely identifiable piece of research.
 
@@ -95,7 +97,7 @@ From the perspective of peer reviewer, our application showcases the process of 
 
 <img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/9.modify.png" width="480" />
 
-10. We then add a comment to the original work and click *Modify*.
+10. We then add a comment to the original work and click *Modify*. Please note that because we are a peer reviewer and not the author of this original work, we cannot modify the metadata of the registered research material. Thus, the authorship of an initial submission remains tamper-proof.
 
 <img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/10.modify-2.png" width="480" />
 
@@ -103,10 +105,22 @@ From the perspective of peer reviewer, our application showcases the process of 
 
 <img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/11.submit-2.png" width="480" />
 
-## Perspective of a Regulator
+### Perspective of a Regulator
 
 From the perspective of regulator, our application showcases the process of approving a research or medical data that is supplied from a uniquely identifiable research author and is updated by a number of peer reviewers. Again, any interaction with the entry is registered with a (i) digital timestamp of the data regardless of its binary and presentation form supplied with (ii) cryptographic proof of document content, (iii) a unique identifier of a content submitter. Continuously, the entry is tracing back any activities related to a uniquely identifiable piece of research supplied by equally uniquely identifiable author.
 
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/14.fda-research.png)
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/15.reject-approve.png)
-![alt text](https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/10.modify-2.png)
+It is now time for the Regulator (here for simplicity: FDA for *Food and Drug Administration*) to act upon a submitted research data that is peer-reviewed, can be traced back to the original author and has the entire history of interactions saved on a tamper-proof ledger.
+
+12. We start by clicking on the *FDA* role.
+
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/13.FDA.png" width="480" />
+
+13. We then select the newly published work.
+
+<img src="https://github.com/hack-the-crisis/sharing-is-caring-123/blob/master/images/14.fda-research.png" width="480" />
+
+14. Please note that because we are a regulator and not the author or a peer reviewer of this original work, we cannot modify the metadata of the registered research material. Thus, the authorship of an initial submission remains tamper-proof. However, we have a possibility to audit the history log for changes to the initial research material and decide whether or not to reject the work or give a recommendation for manufacturing. 
+
+## Summary
+
+In this demo we went through a typical journey of an original research document that travels from an author through a peer reviewer and ends up on the Regulator's table for a final approval or rejection. As we have seen, each event is registered on the blockchain instead of relying on a trusted third party, thus radically shortening the amount of time for audit and verification before giving a final approval and broadcasting it to the wider public.
